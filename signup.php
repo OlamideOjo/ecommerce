@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $password = $_POST['password'];
-    $date = date("Y:m:d H:i:s");
+    $date = date["Y:m:d H:i:s"];
 
     if(empty($fname)){
         echo 'fullname cannot be empty';
